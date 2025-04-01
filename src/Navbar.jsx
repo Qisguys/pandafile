@@ -27,7 +27,6 @@ const Navbar = ({ user, setUser }) => {
       console.error("Logout failed:", error);
     }
   };
-
   const handleToggle = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
 
